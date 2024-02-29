@@ -5,7 +5,7 @@ from langchain.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
-GOOGLE_API_KEY = "AIzaSyB3N2Q_HOYCILLbJYidWnCMI1QD10OJyKs"
+GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY_PASTE_HERE"
 
 llm = GooglePalm(google_api_key=GOOGLE_API_KEY, temperature=0.1)
 
